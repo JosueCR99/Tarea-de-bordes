@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <p>Nombre: Josue Yael Cuevas Rosario</p>
+
+    <h1>Formulario de Incripcion a Competencia Escolar</h1>
+
+    <p>
+      Usa este Formulario de Incripcion a Competencia Escolar para expresar tu
+      intencion de participar en la Competencia que sea de tu interes. Los
+      organizadires te contactaran para confirmar tu participacion y para
+      responder tus preguntas, si es quetienes alguna.
+    </p>
+
+    <p>
+      Por favor, confirma tu intencion de participar en una competencia escolar
+      mediante la colocacion de tu firma en elo formulario.
+    </p>
+
+    <table>
+      <form action="#">
+        <tr>
+          <td><label for="nombre">Nombre completo*:</label></td>
+          <td><input type="text" id="nombre" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><label for="curso_grado">Curso Grado*:</label></td>
+          <td><input type="text" id="curso_grado" /></td>
+        </tr>
+        <tr>
+          <td><label for="fecha_nacimiento">Fecha de nacimiento*:</label></td>
+          <td><input type="date" id="fecha_nacimiento" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="competicion_checkbox"
+              >Competicion en la que quieres participar*:</label
+            >
+          </td>
+          <td>
+            <input type="radio" name="competicion_checkbox" />Atletismo
+            <br />
+            <input type="radio" name="competicion_checkbox" />Deletreo
+            <br />
+            <input type="radio" name="competicion_checkbox" />Olimpiadas
+            matematicas
+            <br />
+            <input type="radio" name="competicion_checkbox" />Arte
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="docente_competencia"
+              >Docente que te prepara para la Competicion*:</label
+            >
+          </td>
+          <td><input type="text" id="docente_competencia" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="telefono"
+              >Telefono al que puedes ser contactado*:</label
+            >
+          </td>
+          <td><input type="tel" id="telefono" /></td>
+        </tr>
+        <tr>
+          <td><label for="persona_contacto">Persona de contacto*:</label></td>
+          <td><input type="text" id="persona_contacto" /></td>
+        </tr>
+        <tr>
+          <td><label for="tel"> Telefono de Persona de contacto*:</label></td>
+          <td><input type="tel" id="tel" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="comentario"
+              >¿Tienes algua pregunta para los organizadores?</label>
+          </td>
+          <td>
+            <textarea rows="5" cols="21" id="comentario"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

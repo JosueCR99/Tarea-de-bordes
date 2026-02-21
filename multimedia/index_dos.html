@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Claro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+   
+<header class="encabezado">
+    <p>Esto es un encabezado pagina principal</p>
+</header>
+
+<main>
+<fieldset>
+  <table>
+    <caption>Claro</caption>
+       <form action="#">
+        <tr>
+            <td><label for="nombre">Primer nombre</label></td>
+            <td><input type="text" id="nombre" placeholder="nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="segundo_nombre">segundo nombre</label></td>
+            <td><input type="text" id="segundo_nombre"placeholder="segudo nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="primer_apellido">Primer apellido</label></td>
+            <td><input type="text" id="primer_apellido" placeholder="primer apellido"></td>
+        </tr>
+       <tr>
+          <td><label for="segundo_apellido">Segundo apellido</label></td>
+          <td><input type="text" id="segundo_apellido" placeholder="segundo apellido"></td>
+       </tr>
+       <tr>
+        <td><label for="sexo">Seleciona el sexo</label></td>
+        <td><input type="radio" name="sexo">Femenino
+            <br>
+            <input type="radio" name="sexo">Masculino</td>
+       </tr>
+       <tr>
+        <td><label for="fecha_nacimiento">Fecha de Nacimiento</label></td>
+        <td><input type="date" id="fecha_nacimiento"></td>
+       </tr>
+       <tr>
+        <td><label for="lugar_nacimiento">Lugar de nacimiento</label></td>
+        <td><input type="text" id="lugar_nacimiento" placeholder="lugar de nacimiento"></td>
+       </tr>
+       <tr>
+         <td><Label for="provincia">Selecciona la provincia</Label></td>
+         <td><select name="provincia" id="provincia">
+             <option value="">Seleccione una provincia</option>
+             <option value="Azua">Azua</option>
+             <option value="Bahoruco">Bahoruco</option>
+             <option value="Barahona">Barahona</option>
+             <option value="Dajabón">Dajabón</option>
+             <option value="Distrito Nacional">Distrito Nacional</option>
+             <option value="Duarte">Duarte</option>
+             <option value="Elías Piña">Elías Piña</option>
+             <option value="El Seibo">El Seibo</option>
+             <option value="Espaillat">Espaillat</option>
+             <option value="Hato Mayor">Hato Mayor</option>
+             <option value="Hermanas Mirabal">Hermanas Mirabal</option>
+             <option value="Independencia">Independencia</option>
+             <option value="La Altagracia">La Altagracia</option>
+             <option value="La Romana">La Romana</option>
+             <option value="La Vega">La Vega</option>
+             <option value="María Trinidad Sánchez">María Trinidad Sánchez</option>
+             <option value="Monseñor Nouel">Monseñor Nouel</option>
+             <option value="Monte Cristi">Monte Cristi</option>
+             <option value="Monte Plata">Monte Plata</option>
+             <option value="Pedernales">Pedernales</option>
+             <option value="Peravia">Peravia</option>
+             <option value="Puerto Plata">Puerto Plata</option>
+             <option value="Samaná">Samaná</option>
+             <option value="San Cristóbal">San Cristóbal</option>
+             <option value="San José de Ocoa">San José de Ocoa</option>
+             <option value="San Juan">San Juan</option>
+             <option value="San Pedro de Macorís">San Pedro de Macorís</option>
+             <option value="Sánchez Ramírez">Sánchez Ramírez</option>
+             <option value="Santiago">Santiago</option>
+             <option value="Santiago Rodríguez">Santiago Rodríguez</option>
+             <option value="Santo Domingo">Santo Domingo</option>
+             <option value="Valverde">Valverde</option>
+         </select>
+         </td>
+         </tr>
+         <tr>
+            <td><label for="pais_origen">Pais de origen</label></td>
+            <td><select id="pais_origen">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="chile">chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="costa_rica">Costa Rica</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="El_salvador">El salvador</option>
+                <option value="Guatamela">Guatamela</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Panama">Panama</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Puerto_rico">Puerto Rico</option>
+                <option value="Peru">Peru</option>
+                <option value="Republica_dominicana">Republica Dominicana</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select></td>
+         </tr>
+         <tr>
+            <td><label for="estado_civil">Estado civil</label></td>
+            <td><input type="radio" name="estado_civil">Soltero 
+            <br>
+            <input type="radio" name="estado_civil">Casado</td>
+         </tr>
+         <tr>
+            <td><label for="numero_cedula">Numero de cedula</label></td>
+            <td><input type="number" id="cedula" placeholder="numero de cedula"></td>
+         </tr>
+         <tr>
+            <td><label for="numero_celular">Numero de celular</label></td>
+            <td><input type="tel" id="numero_celular" placeholder="numero de celular"></td>
+         </tr>
+         <tr>
+            <td><label for="telefono_trabajo">Telefono de trabajo</label></td>
+            <td><input type="tel" id="telefono_trabajo" placeholder="telefono de trabajo"></td>
+         </tr>
+         <tr>
+            <td><label for="correo_electronico">Correo electronico</label></td>
+            <td><input type="email" id="correo_electronico" placeholder="correo electronico"></td>
+         </tr>
+         <tr>
+            <td><label for="servicio">Servicio a solicitar</label></td>
+            <td><input type="radio" name="servicio">Internet Movil <br>
+                <input type="radio" name="servicio">Internet ijo <br>
+                <input type="radio" name="servicio">Fibra Optica
+            </td>
+         </tr>
+         <br>
+         <tr>
+            <td><label for="subir_img">Subir Imagen</label></td>
+            <td><input type="file" id="subir_img"></td>
+         </tr>
+         <tr>
+            <td><label for="caja_comentario">Caja de comentario para observaciones</label>
+            </td>
+            <td><textarea name="" id="caja_comentario" placeholder="comentario"></textarea></td>
+         </tr>
+         <tr>
+            <td><input type="submit"></td>
+            <td><input type="button" value="Limpiar"></td>
+         </tr>
+         
+       </form>
+    </fieldset>
+  </table>
+  </main>
+
+  <footer class="pie_pagina">
+        <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.<p>
+  </footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
